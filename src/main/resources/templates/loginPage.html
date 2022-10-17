@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<style>
+    div {
+  margin-right: 800px;
+  margin-left: 50px;
+}
+body {
+  background-color: #ebebe0;
+  opacity: 0.9;
+}
+</style>
+</head>
+<body>
+
+<form method="post" action="/login-action">
+    <div >
+        <label for="exampleInputEmail1"><b>Email address</b></label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+    </div>
+    <div >
+        <label for="exampleInputPassword1"><b>Password</b></label>
+        <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div >
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/register">Register</a>
+</form>
+
+</body>
+</html>
